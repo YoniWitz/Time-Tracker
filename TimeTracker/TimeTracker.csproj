@@ -265,6 +265,7 @@
     </Compile>
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\TimeCard.cs" />
+    <Compile Include="Models\TimeTrackerDbContextInitializer.cs" />
     <Compile Include="Models\TimeTrackerDbContext.cs" />
     <Compile Include="Models\TimeTrackerRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

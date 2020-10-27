@@ -17,8 +17,8 @@ namespace TimeTracker
         void Application_Start(object sender, EventArgs e)
         {
 
-            Database.SetInitializer(new CreateDatabaseIfNotExists<TimeTrackerDbContext>());
-            _context.Database.Initialize(true);
+            Database.SetInitializer(new TimeTrackerDbContextInitializer());
+            //_context.Database.Initialize(true);
             // Code that runs on application startup
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);

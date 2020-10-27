@@ -11,6 +11,8 @@ namespace TimeTracker.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Department { get; set; }
+        public DateTime HireDate { get; set; }
+        public int CompanyID { get; set; }
         public List<TimeCard> TimeCards { get; set; }
     }
 }
