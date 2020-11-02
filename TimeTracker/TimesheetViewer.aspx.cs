@@ -9,14 +9,12 @@ namespace TimeTracker
 {
     public partial class _Default : Page
     {
-        protected void Page_Load(object sender, EventArgs e)
+        void Page_PreInit(object sender, EventArgs e)
         {
-
-        }
-
-        protected void EntityDataSource1_Selecting(object sender, ObjectDataSourceSelectingEventArgs e)
-        {
-
+            if (Request.QueryString["Print"] != null)
+            {
+                MasterPageFile = "~/Print.Master";
+            }
         }
     }
 }
