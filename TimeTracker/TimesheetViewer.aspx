@@ -1,7 +1,8 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="TimeTracker._Default" %>
+﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="TimesheetViewer.aspx.cs" Inherits="TimeTracker._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-
+    <a href="TimesheetViewer.aspx?print=true" >Print Me</a>
+    <br />
     <asp:GridView ID="EmployeesGV" runat="server" DataSourceID="EmployeesODS" CellPadding="4" ForeColor="#333333"
         GridLines="None" AllowPaging="True" AutoGenerateColumns="False" DataKeyNames="ID">
         <AlternatingRowStyle BackColor="White" />
