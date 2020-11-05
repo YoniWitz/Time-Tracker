@@ -16,5 +16,18 @@ namespace TimeTracker
                 MasterPageFile = "~/Print.Master";
             }
         }
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (!User.Identity.IsAuthenticated)
+            {
+                Response.Redirect("login.aspx", true);
+            }
+        }
+        protected void SignOut(object sender, EventArgs e)
+        {
+            var authenticationManager = HttpContext.Current.GetOwinContext().Authentication;
+            authenticationManager.SignOut();
+            Response.Redirect("~/Login.aspx");
+        }
     }
 }

@@ -69,7 +69,6 @@
         </SelectParameters>
     </asp:ObjectDataSource>
     <br />
-
-
-
+    <asp:Button ID="Button1" runat="server" OnClick="SignOut" Text="Log out" />
+    <br />
 </asp:Content>
