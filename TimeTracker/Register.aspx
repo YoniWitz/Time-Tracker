@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="TimeTracker.Register" %>
+﻿<%@ Page Language="C#" Debug="true" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="TimeTracker.Register" %>
 
 <!DOCTYPE html>
 
