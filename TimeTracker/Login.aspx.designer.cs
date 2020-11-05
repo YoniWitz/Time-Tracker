@@ -10,69 +10,69 @@
 namespace TimeTracker {
     
     
-    public partial class _Default {
+    public partial class Login {
         
         /// <summary>
-        /// EmployeesGV control.
+        /// form1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView EmployeesGV;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// EmployeesODS control.
+        /// LoginStatus control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ObjectDataSource EmployeesODS;
+        protected global::System.Web.UI.WebControls.PlaceHolder LoginStatus;
         
         /// <summary>
-        /// UpdatePanel1 control.
+        /// StatusText control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel1;
+        protected global::System.Web.UI.WebControls.Literal StatusText;
         
         /// <summary>
-        /// updateProgress control.
+        /// LoginForm control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.UpdateProgress updateProgress;
+        protected global::System.Web.UI.WebControls.PlaceHolder LoginForm;
         
         /// <summary>
-        /// TimeCardsGV control.
+        /// UserName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView TimeCardsGV;
+        protected global::System.Web.UI.WebControls.TextBox UserName;
         
         /// <summary>
-        /// TimeCardsODS control.
+        /// Password control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ObjectDataSource TimeCardsODS;
+        protected global::System.Web.UI.WebControls.TextBox Password;
         
         /// <summary>
-        /// Button1 control.
+        /// LogoutButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.PlaceHolder LogoutButton;
     }
 }
