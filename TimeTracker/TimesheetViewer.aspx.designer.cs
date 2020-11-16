@@ -10,7 +10,7 @@
 namespace TimeTracker {
     
     
-    public partial class _Default {
+    public partial class TimesheetViewer {
         
         /// <summary>
         /// EmployeesGV control.

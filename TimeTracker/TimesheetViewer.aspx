@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="TimesheetViewer.aspx.cs" Inherits="TimeTracker._Default" %>
+﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="TimesheetViewer.aspx.cs" Inherits="TimeTracker.TimesheetViewer" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <a href="TimesheetViewer.aspx?print=true" >Print Me</a>

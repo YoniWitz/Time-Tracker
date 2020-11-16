@@ -1,30 +1,7 @@
-﻿<%@ Page Title="Home Page" Language="C#" AutoEventWireup="true" CodeBehind="Authors.aspx.cs" Inherits="TimeTracker._Default" %>
+﻿<%@ Page Title="Home Page" Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="Authors.aspx.cs" Inherits="TimeTracker.Authors" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head id="Head1" runat="server">
-    <title></title>
-    <style type="text/css">
- 
-    
-    .style1  
-    {
-        font-size:30px;
-        font-family: Arial;
-    }
-    
-    .style2  
-    {
-        font-size:14px;
-        font-family: Arial;
-    }
-
-</style>
-</head>
-<body>
-    <form id="form1" runat="server">
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+   
     <div>
     
     <table cellpadding="5" cellspacing="5" border="0">
@@ -53,12 +30,19 @@
             <td class="style1">Insert new Author</td>
         </tr>
          <tr>
-             <td class="style2"> </td>
+             <td class="style2"> FirstName:&nbsp;
+                 <asp:TextBox ID="FirstName" runat="server"></asp:TextBox>
+                 <br />
+                 LastName:&nbsp;&nbsp;&nbsp;
+                 <asp:TextBox ID="LastName" runat="server"></asp:TextBox>
+                 <br />
+                 <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
+                 <asp:Label ID="Label1" runat="server" ></asp:Label>
+             </td>
         </tr>
     </table>
 
         
     </div>
-    </form>
-</body>
-</html>
+ 
+</asp:Content>

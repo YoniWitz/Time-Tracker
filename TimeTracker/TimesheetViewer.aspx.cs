@@ -4,7 +4,7 @@ using System.Web.UI;
 
 namespace TimeTracker
 {
-    public partial class _Default : Page
+    public partial class TimesheetViewer : Page
     {
         void Page_PreInit(object sender, EventArgs e)
         {
